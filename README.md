@@ -1,0 +1,3 @@
+# Unhandled Error in Express.js Route Parameter
+
+This repository demonstrates a common error in Express.js applications:  failure to handle invalid input in route parameters.  The `bug.js` file shows the flawed code, while `bugSolution.js` provides a corrected version.  The issue involves a route that expects a user ID, but lacks error handling for cases where the ID is invalid (e.g., not a number, not found). This could lead to application crashes or unexpected behavior.  The solution showcases proper error handling using try...catch blocks and returning appropriate HTTP error responses.
